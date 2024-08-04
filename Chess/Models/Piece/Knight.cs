@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace Chess.Models.Piece
 {
-    internal class Knight : ChessPiece
+    public class Knight : ChessPiece
     {
-        public override List<Vector2> MovePattern()
+        public Knight(Color color) : base(color) { }
+        public override List<Vector2> MovePattern(Vector2 position)
         {
             List<Vector2> possibleMoves = [];
 
@@ -26,7 +27,7 @@ namespace Chess.Models.Piece
 
             foreach (var move in moves)
             {
-                possibleMoves.Add(Position + move);
+                possibleMoves.Add(position + move);
             }
 
             return possibleMoves;

@@ -8,15 +8,14 @@ using System.Windows;
 
 namespace Chess.Models.Piece
 {
-    abstract class ChessPiece
+    public abstract class ChessPiece
     {
-        Color color;
+        Color Color { get;}
         public ChessPiece() { }
         public ChessPiece(Color color)
         {
-            this.color = color;
+            this.Color = color;
         }
-        public Vector2 Position { get; set; }
-        abstract public List<Vector2> MovePattern();
+        abstract public List<Vector2> MovePattern(Vector2 position);
     }
 }

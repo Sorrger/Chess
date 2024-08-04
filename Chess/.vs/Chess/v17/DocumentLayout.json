@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\chess.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:chess.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 231,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Chess",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Chess.csproj",
+              "RelativeDocumentMoniker": "Chess.csproj",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Chess.csproj",
+              "RelativeToolTip": "Chess.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-04T20:27:16.411Z",
+              "EditorCaption": ""
             }
           ]
         }

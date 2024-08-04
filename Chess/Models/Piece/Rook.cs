@@ -7,17 +7,18 @@ using System.Threading.Tasks;
 
 namespace Chess.Models.Piece
 {
-    internal class Rook : ChessPiece
+    public class Rook : ChessPiece
     {
-        public override List<Vector2> MovePattern()
+        public Rook(Color color) : base(color) { }
+        public override List<Vector2> MovePattern(Vector2 position)
         {
             List<Vector2> possibleMoves = [];
             for (int i = 1; i < 8; i++)
             {
-                possibleMoves.Add(Position + new Vector2(0, i));
-                possibleMoves.Add(Position + new Vector2(0, -i));
-                possibleMoves.Add(Position + new Vector2(i, 0));
-                possibleMoves.Add(Position + new Vector2(-i, 0));
+                possibleMoves.Add(position + new Vector2(0, i));
+                possibleMoves.Add(position + new Vector2(0, -i));
+                possibleMoves.Add(position + new Vector2(i, 0));
+                possibleMoves.Add(position + new Vector2(-i, 0));
             }
             return possibleMoves;
         }
