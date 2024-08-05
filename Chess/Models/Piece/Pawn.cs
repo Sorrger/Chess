@@ -9,7 +9,7 @@ namespace Chess.Models.Piece
 {
     public class Pawn : ChessPiece
     {
-        bool FirstMove;
+        public bool FirstMove { get; set; }
         public Pawn(Color color, bool firstMove) : base(color)
         {
             FirstMove = firstMove;

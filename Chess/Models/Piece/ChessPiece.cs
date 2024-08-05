@@ -10,7 +10,7 @@ namespace Chess.Models.Piece
 {
     public abstract class ChessPiece
     {
-        Color Color { get;}
+        public Color Color { get;}
         public ChessPiece() { }
         public ChessPiece(Color color)
         {

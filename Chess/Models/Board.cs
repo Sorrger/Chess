@@ -73,12 +73,6 @@ namespace Chess.Models
         {
             board[x, y] = new Square(board[x, y].Color, piece);
         }
-        public bool IsTherePiece(int x, int y) 
-        {
-            if (board[x, y].Piece ==  null) 
-                return true;
-            return false;
-        }
         public ChessPiece GetPiece(int x, int y)
         {
             return board[x, y].Piece;

@@ -10,7 +10,7 @@ namespace Chess.Models
 {
     public class Game
     {
-        Board cheeseBoard;
+        Board chessBoard;
         Player player1, player2;
         bool Paused {  get; set; }
         bool IsGameOver {  get; set; }
@@ -19,36 +19,127 @@ namespace Chess.Models
         {
             player1 = new Player(Color.White);
             player2 = new Player(Color.Black);
-            cheeseBoard = new Board();
+            chessBoard = new Board();
             Paused = true;
             IsGameOver = false;
         }
         void startGame() 
         {
-            cheeseBoard.SetBoard();
+            chessBoard.SetBoard();
             Paused = false;
         }
-
-        //tutaj uzupelnic logike na razie tylko dla konia zrobione inne figury plus bicie pionka na skos np uzyc isBlocking idk
         bool CanMoveThere(int x, int y, int fx, int fy)
         {
-            var piece = cheeseBoard.GetPiece(x, y);
+            if ( fx > 7 || fx < 0 || fy > 7 || fy < 0)
+                return false;
 
+            var piece = chessBoard.GetPiece(x, y);
             if (piece == null) return false;
 
             List<Vector2> possibleMovesOfPiece = piece.MovePattern(new Vector2(x,y));
             if (!possibleMovesOfPiece.Contains(new Vector2(fx, fy)))
                 return false;
+
             if (piece is Knight)
                 return true;
+            if (piece is Bishop)
+            {
+                if (Math.Abs(fx - x) != Math.Abs(fy - y))
+                    return false;
 
+                int xDirection = ReturnSign(fx,x);
+                int yDirection = ReturnSign(fy,y);
+                int currentX = x + xDirection;
+                int currentY = y + yDirection;
+                while (currentX != fx || currentY != fy)
+                {
+                    if (chessBoard.GetPiece(currentX, currentY) != null)
+                        return false;
 
-            //to do usuniecia
+                    currentX += xDirection;
+                    currentY += yDirection;
+                }
+                return true;
+            }
+            if (piece is Rook)
+            {
+                if (x != fx && y != fy)
+                    return false;
+
+                int xDirection = ReturnSign(fx, x);
+                int yDirection = ReturnSign(fy, y);
+
+                int currentX = x + xDirection;
+                int currentY = y + yDirection;
+                while (currentX != fx || currentY != fy)
+                {
+                    if (chessBoard.GetPiece(currentX, currentY) != null)
+                        return false;
+
+                    currentX += xDirection;
+                    currentY += yDirection;
+                }
+                return true;
+            }
+            if (piece is Queen)
+            {
+                bool isStraightLine = (x == fx || y == fy);
+                bool isDiagonal = (Math.Abs(fx - x) == Math.Abs(fy - y));
+
+                if (!isStraightLine && !isDiagonal)
+                    return false;
+
+                int xDirection = ReturnSign(fx, x);
+                int yDirection = ReturnSign(fy, y);
+                int currentX = x + xDirection;
+                int currentY = y + yDirection;
+                while (currentX != fx || currentY != fy)
+                {
+                    if (chessBoard.GetPiece(currentX, currentY) != null)
+                        return false;
+
+                    currentX += xDirection;
+                    currentY += yDirection;
+                }
+                return true;
+            }
+            if (piece is King)
+            {
+                int xDistance = Math.Abs(fx - x);
+                int yDistance = Math.Abs(fy - y);
+
+                if (xDistance > 1 || yDistance > 1)
+                    return false;
+
+                return true;
+            }
+
+            if (piece is Pawn pawn)
+            {
+                int direction = (pawn.Color == Color.White) ? 1 : -1;
+
+                if (x == fx && y + direction == fy && chessBoard.GetPiece(x, fy) == null)
+                    return true;
+
+                if (x == fx && y + 2 * direction == fy &&
+                    chessBoard.GetPiece(x, fy) == null &&chessBoard.GetPiece(x, y + direction) == null &&
+                    pawn.FirstMove)
+                    return true;
+
+                if (Math.Abs(fx - x) == 1 && y + direction == fy && chessBoard.GetPiece(fx, fy) != null)
+                    return true;
+
+                return false;
+            }
             return false;
         }
-        bool IsBlocking(int x, int y, int fx, int fy) 
+        int ReturnSign(int x, int y)
         {
-            return false;
+            if (x > y)
+                return 1;
+            else if (x < y)
+                return -1;
+            else return 0;
         }
              
     }

@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\chess.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:chess.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\piece\\chesspiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\piece\\chesspiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\piece\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\piece\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +30,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 231,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "Models\\Game.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Game.cs",
+              "RelativeToolTip": "Models\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T17:39:18.358Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Square.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Square.cs",
+              "RelativeDocumentMoniker": "Models\\Square.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Square.cs",
+              "RelativeToolTip": "Models\\Square.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T19:15:03.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChessPiece.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\ChessPiece.cs",
+              "RelativeDocumentMoniker": "Models\\Piece\\ChessPiece.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\ChessPiece.cs",
+              "RelativeToolTip": "Models\\Piece\\ChessPiece.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T19:11:58.066Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -23,13 +79,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Chess",
-              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Chess.csproj",
-              "RelativeDocumentMoniker": "Chess.csproj",
-              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Chess.csproj",
-              "RelativeToolTip": "Chess.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-04T20:27:16.411Z",
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Board.cs",
+              "RelativeDocumentMoniker": "Models\\Board.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Board.cs",
+              "RelativeToolTip": "Models\\Board.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T18:51:27.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pawn.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\Pawn.cs",
+              "RelativeDocumentMoniker": "Models\\Piece\\Pawn.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\Pawn.cs",
+              "RelativeToolTip": "Models\\Piece\\Pawn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T18:49:24.051Z",
               "EditorCaption": ""
             }
           ]
