@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="Chess.Views.MenuView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Chess.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Viewbox Grid.Row="0">
+            <TextBlock 
+           Text="Chess"
+           FontFamily="Arial"
+           HorizontalAlignment="Center"
+           VerticalAlignment="Center"
+           />
+        </Viewbox>
+        
+        <Grid Grid.Row="1"
+              Grid.Column="1"
+              HorizontalAlignment="Stretch">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40*"/>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="40*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="20*"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Column="1"
+                    Grid.Row="0"
+                    Margin="0,10,0,10"
+                    Content="Start"
+                    Command="{Binding MoveToGame}"
+                    />
+            <Button Grid.Column="1"
+                    Grid.Row="1"
+                    Margin="0,10,0,10"
+                    Content="XPP"
+                    />
+            <Button Grid.Column="1"
+                    Grid.Row="2"
+                    Margin="0,10,0,10"
+                    Content="XPP"
+                   />
+            <Button Grid.Column="1"
+                    Grid.Row="3"
+                    Margin="0,10,0,10"
+                    Content="Exit"
+                    />
+        </Grid>
+    </Grid>
+</UserControl>

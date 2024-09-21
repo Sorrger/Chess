@@ -3,10 +3,21 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Chess"
+        xmlns:local="clr-namespace:Chess" 
+        xmlns:Views="clr-namespace:Chess.Views"
+        xmlns:vms="clr-namespace:Chess.ViewModels"
         mc:Ignorable="d"
         Title="Chess" Height="450" Width="800">
     <Grid>
+        <Grid.Resources>
+            <DataTemplate DataType="{x:Type vms:GameViewModel}">
+                <Views:GameView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vms:MenuViewModel}">
+                <Views:MenuView/>
+            </DataTemplate>
+        </Grid.Resources>
 
+        <ContentControl Content="{Binding CurrentViewModel}"/>
     </Grid>
 </Window>

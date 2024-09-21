@@ -13,6 +13,9 @@ namespace Chess.Models.Piece
         public Pawn(Color color, bool firstMove) : base(color)
         {
             FirstMove = firstMove;
+            ImageSource = color == Color.White ?
+             "/Chess;component/Resources/Pieces/WhitePawn.png" :
+             "/Chess;component/Resources/Pieces/BlackPawn.png";
         }
 
         public override List<Vector2> MovePattern(Vector2 position)

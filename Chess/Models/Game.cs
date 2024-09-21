@@ -10,7 +10,7 @@ namespace Chess.Models
 {
     public class Game
     {
-        Board chessBoard;
+        public Board chessBoard;
         Player player1, player2;
         bool Paused {  get; set; }
         bool IsGameOver {  get; set; }
@@ -23,12 +23,12 @@ namespace Chess.Models
             Paused = true;
             IsGameOver = false;
         }
-        void startGame() 
+        public void startGame() 
         {
             chessBoard.SetBoard();
             Paused = false;
         }
-        bool CanMoveThere(int x, int y, int fx, int fy)
+        public bool CanMoveThere(int x, int y, int fx, int fy)
         {
             if ( fx > 7 || fx < 0 || fy > 7 || fy < 0)
                 return false;
@@ -133,6 +133,7 @@ namespace Chess.Models
             }
             return false;
         }
+
         int ReturnSign(int x, int y)
         {
             if (x > y)

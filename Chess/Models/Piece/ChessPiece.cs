@@ -11,6 +11,7 @@ namespace Chess.Models.Piece
     public abstract class ChessPiece
     {
         public Color Color { get;}
+        public string ImageSource { get; protected set; }
         public ChessPiece() { }
         public ChessPiece(Color color)
         {

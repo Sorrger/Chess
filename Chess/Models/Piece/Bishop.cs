@@ -9,7 +9,13 @@ namespace Chess.Models.Piece
 {
     internal class Bishop : ChessPiece
     {
-        public Bishop(Color color) :base(color) { }
+        public Bishop(Color color) :base(color) 
+        {
+            ImageSource = color == Color.White ?
+              "/Chess;component/Resources/Pieces/WhiteBishop.png" :
+              "/Chess;component/Resources/Pieces/BlackBishop.png";
+
+        }
         public override List<Vector2> MovePattern(Vector2 position)
         {
             List<Vector2> possibleMoves = [];

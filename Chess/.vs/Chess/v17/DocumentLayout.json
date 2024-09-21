@@ -3,24 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\views\\gameview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:views\\gameview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\commands\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:commands\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\commands\\movepiececommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:commands\\movepiececommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\piece\\chesspiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\piece\\chesspiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\piece\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\piece\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\piece\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\piece\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\piece\\chesspiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\piece\\chesspiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\viewmodels\\menuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:viewmodels\\menuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\piece\\bishop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\piece\\bishop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\piece\\queen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\piece\\queen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\piece\\rook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\piece\\rook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\models\\piece\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:models\\piece\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\converters\\colortobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:converters\\colortobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|c:\\users\\sorrg\\source\\repos\\chess\\chess\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627F722A-180C-498F-A742-D273C4997387}|Chess.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,77 +97,277 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 231,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 243,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Game.cs",
-              "RelativeDocumentMoniker": "Models\\Game.cs",
-              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Game.cs",
-              "RelativeToolTip": "Models\\Game.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "DocumentIndex": 7,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "Models\\Player.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Player.cs",
+              "RelativeToolTip": "Models\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T17:39:18.358Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T17:55:17.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MenuViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\ViewModels\\MenuViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MenuViewModel.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\ViewModels\\MenuViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MenuViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T17:36:20.073Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Square.cs",
-              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Square.cs",
-              "RelativeDocumentMoniker": "Models\\Square.cs",
-              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Square.cs",
-              "RelativeToolTip": "Models\\Square.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T19:15:03.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChessPiece.cs",
-              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\ChessPiece.cs",
-              "RelativeDocumentMoniker": "Models\\Piece\\ChessPiece.cs",
-              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\ChessPiece.cs",
-              "RelativeToolTip": "Models\\Piece\\ChessPiece.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T19:11:58.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Board.cs",
-              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Board.cs",
-              "RelativeDocumentMoniker": "Models\\Board.cs",
-              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Board.cs",
-              "RelativeToolTip": "Models\\Board.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T18:51:27.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T17:36:17.64Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "MovePieceCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Commands\\MovePieceCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\MovePieceCommand.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Commands\\MovePieceCommand.cs",
+              "RelativeToolTip": "Commands\\MovePieceCommand.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAIwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T13:55:50.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommandBase.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Commands\\CommandBase.cs",
+              "RelativeDocumentMoniker": "Commands\\CommandBase.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Commands\\CommandBase.cs",
+              "RelativeToolTip": "Commands\\CommandBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T12:57:30.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Rook.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\Rook.cs",
+              "RelativeDocumentMoniker": "Models\\Piece\\Rook.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\Rook.cs",
+              "RelativeToolTip": "Models\\Piece\\Rook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T12:50:52.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Queen.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\Queen.cs",
+              "RelativeDocumentMoniker": "Models\\Piece\\Queen.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\Queen.cs",
+              "RelativeToolTip": "Models\\Piece\\Queen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T12:50:25.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Pawn.cs",
               "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\Pawn.cs",
               "RelativeDocumentMoniker": "Models\\Piece\\Pawn.cs",
               "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\Pawn.cs",
               "RelativeToolTip": "Models\\Piece\\Pawn.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T18:49:24.051Z",
+              "WhenOpened": "2024-09-18T12:49:58.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "King.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\King.cs",
+              "RelativeDocumentMoniker": "Models\\Piece\\King.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\King.cs",
+              "RelativeToolTip": "Models\\Piece\\King.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T12:49:08.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameView.xaml",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Views\\GameView.xaml",
+              "RelativeDocumentMoniker": "Views\\GameView.xaml",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Views\\GameView.xaml",
+              "RelativeToolTip": "Views\\GameView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T18:19:31.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Bishop.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\Bishop.cs",
+              "RelativeDocumentMoniker": "Models\\Piece\\Bishop.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\Bishop.cs",
+              "RelativeToolTip": "Models\\Piece\\Bishop.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T18:38:32.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChessPiece.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\ChessPiece.cs",
+              "RelativeDocumentMoniker": "Models\\Piece\\ChessPiece.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\ChessPiece.cs",
+              "RelativeToolTip": "Models\\Piece\\ChessPiece.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T18:38:11.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ColorToBrushConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Converters\\ColorToBrushConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\ColorToBrushConverter.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Converters\\ColorToBrushConverter.cs",
+              "RelativeToolTip": "Converters\\ColorToBrushConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T18:35:50.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Knight.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\Knight.cs",
+              "RelativeDocumentMoniker": "Models\\Piece\\Knight.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Piece\\Knight.cs",
+              "RelativeToolTip": "Models\\Piece\\Knight.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T18:22:11.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "Models\\Game.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Game.cs",
+              "RelativeToolTip": "Models\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T18:22:08.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Square.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Square.cs",
+              "RelativeDocumentMoniker": "Models\\Square.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Square.cs",
+              "RelativeToolTip": "Models\\Square.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T18:22:01.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Board.cs",
+              "RelativeDocumentMoniker": "Models\\Board.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\Models\\Board.cs",
+              "RelativeToolTip": "Models\\Board.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAADwvzQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T18:21:50.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T18:21:20.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T18:21:18.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T18:21:17.362Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 219,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "ViewModels\\ViewModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T17:51:31.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\ViewModels\\GameViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\GameViewModel.cs",
+              "ToolTip": "C:\\Users\\Sorrg\\source\\repos\\Chess\\Chess\\ViewModels\\GameViewModel.cs",
+              "RelativeToolTip": "ViewModels\\GameViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T18:18:49.052Z",
               "EditorCaption": ""
             }
           ]

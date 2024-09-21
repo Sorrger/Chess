@@ -9,7 +9,12 @@ namespace Chess.Models.Piece
 {
     public class Knight : ChessPiece
     {
-        public Knight(Color color) : base(color) { }
+        public Knight(Color color) : base(color) 
+        {
+            ImageSource = color == Color.White ?
+             "/Chess;component/Resources/Pieces/WhiteKnight.png" :
+             "/Chess;component/Resources/Pieces/BlackKnight.png";
+        }
         public override List<Vector2> MovePattern(Vector2 position)
         {
             List<Vector2> possibleMoves = [];

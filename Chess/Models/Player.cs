@@ -15,7 +15,7 @@ namespace Chess.Models
 
         public Player(Color color) 
         {
-            Color = color;
+            PlayerColor = color;
         }
         public Player() 
         {

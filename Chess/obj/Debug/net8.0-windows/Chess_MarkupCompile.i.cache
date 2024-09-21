@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Sorrg\source\repos\Chess\Chess\App.xaml
-11407045341
+3-1372916620
 
-18722266015
+301734248396
 198-635017904
-MainWindow.xaml;
+MainWindow.xaml;Views\GameView.xaml;Views\MenuView.xaml;
 
-False
+True
 
