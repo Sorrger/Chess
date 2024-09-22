@@ -19,33 +19,33 @@ namespace Chess.Commands
         }
         public override void Execute(object? parameter)
         {
-            Square sq = (Square)parameter;
+            var sq = parameter as Square;
             if (_gameViewModel.Clicked)
             {
-                if (!_gameViewModel.PossiblePositions.Contains(new Vector2(sq.Column, sq.Row)))
+
+                if (_gameViewModel.PossiblePositions.Contains(new Vector2(sq.Row, sq.Column)))
                     return;
-                if(!_gameViewModel.CurrentGame.CanMoveThere((int)_gameViewModel.ClickedPosition.X,
-                    (int)_gameViewModel.ClickedPosition.Y, sq.Column, sq.Row))
+                if(_gameViewModel.CurrentGame.CanMoveThere((int)_gameViewModel.ClickedPosition.X,
+                    (int)_gameViewModel.ClickedPosition.Y, sq.Row, sq.Column))
                     return;
-                if (_gameViewModel.CurrentGame.chessBoard.GetPiece(sq.Column, sq.Row) != null)
+
+              /*  if (_gameViewModel.CurrentGame.chessBoard.GetPiece(sq.Row, sq.Column) != null)
                 {
-                    //capture piece kiedys
                     
-                }
-                _gameViewModel.CurrentGame.chessBoard.MovePiece((int)_gameViewModel.ClickedPosition.X,
-                    (int)_gameViewModel.ClickedPosition.Y, sq.Column, sq.Row);
-                _gameViewModel.UpdateBoardState();
+                    
+                }*/
+                _gameViewModel.CurrentGame.chessBoard.MovePiece((int)_gameViewModel.ClickedPosition.X ,
+                    (int)_gameViewModel.ClickedPosition.Y , sq.Row, sq.Column);
                 _gameViewModel.Clicked = false;
                 return;
             }
 
             if (sq.Piece == null) 
-                return;
-            _gameViewModel.Clicked = true;
-            _gameViewModel.ClickedPosition = new Vector2(sq.Column, sq.Row);
-            _gameViewModel.PossiblePositions = sq.Piece.MovePattern(new Vector2(sq.Column, sq.Row));
+                return; 
 
-            Console.WriteLine(sq.Piece.Color.ToString());
+            _gameViewModel.Clicked = true;
+            _gameViewModel.ClickedPosition = new Vector2(sq.Row, sq.Column);
+            _gameViewModel.PossiblePositions = sq.Piece.MovePattern(new Vector2(sq.Column, sq.Row));
         }
 
     }

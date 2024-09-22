@@ -23,9 +23,15 @@ namespace Chess.Models.Piece
             List<Vector2> possibleMoves = new List<Vector2>();
             if (FirstMove)
             {
-                possibleMoves.Add(position + new Vector2(0, 2));
+                if (Color == Color.White) 
+                    possibleMoves.Add(position + new Vector2(0, -2));
+                else 
+                    possibleMoves.Add(position + new Vector2(0, 2));
             }
-            possibleMoves.Add(position + new Vector2(0, 1));
+            if (Color == Color.White)
+                possibleMoves.Add(position + new Vector2(0, -1));
+            else 
+                possibleMoves.Add(position + new Vector2(0, 1));
 
             return possibleMoves;
         }

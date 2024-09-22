@@ -2,6 +2,7 @@
 using Chess.Models;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Numerics;
 using System.Text;
@@ -14,11 +15,15 @@ namespace Chess.ViewModels
     {
         public Game CurrentGame { get; private set; }
 
-        private IEnumerable<Square> _boardState;
-        public IEnumerable<Square> BoardState
+        private ObservableCollection<Square> _boardState;
+        public ObservableCollection<Square> BoardState
         {
             get => _boardState;
-            set => _boardState = value;
+            set
+            {
+                _boardState = value;
+                OnPropertyChanged(nameof(BoardState));
+            }
         }
         public bool Clicked;
         public Vector2 ClickedPosition;
@@ -30,14 +35,9 @@ namespace Chess.ViewModels
         {
             CurrentGame = new Game();
             CurrentGame.startGame();
-            BoardState = CurrentGame.chessBoard.GetBoardState();
+            BoardState = new ObservableCollection<Square>(CurrentGame.chessBoard.GetBoardState());
             Clicked = false;
             MovePiece = new MovePieceCommand(this);
         }
-        public void UpdateBoardState()
-        {
-            BoardState = CurrentGame.chessBoard.GetBoardState();
-        }
     }
-        
 }

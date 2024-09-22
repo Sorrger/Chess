@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Chess.Models.Piece;
 using Chess.Models;
+using System.Diagnostics;
+using System.Collections.ObjectModel;
 
 namespace Chess.Models
 {
@@ -63,11 +65,59 @@ namespace Chess.Models
 
         public void MovePiece(int x, int y, int dX, int dY)
         {
-            Square fromMove = board[x, y];
-            Square toMove = board[dX, dY];
+            if (x == dX && y == dY)
+                return;
+            var piece = board[x, y].Piece;
 
-            board[x, y] = new Square(fromMove.Color);
-            board[dX, dY] = new Square(toMove.Color,fromMove.Piece);
+            if (piece == null)
+                return;
+            if (piece is Pawn pawn)
+            {
+                pawn.FirstMove = false;
+            }
+            board[dX, dY].Piece = piece;
+            board[x, y].Piece = null;
+            
+            PrintBoardState();
+        }
+        public void PrintBoardState()
+        {
+            Console.Write("\nCurrent Board State:");
+
+            for (int row = 0; row < 8; row++)
+            {
+                for (int col = 0; col < 8; col++)
+                {
+                    var piece = board[row, col].Piece;
+
+                    // Jeśli na polu jest figura, wyświetl jej skrót
+                    if (piece != null)
+                    {
+                        // Skrot do typu figury
+                        string pieceShort = GetPieceShortName(piece);
+                        Debug.Write(pieceShort + " ");
+                    }
+                    else
+                    {
+                        // Puste pole
+                        Debug.Write(". ");
+                    }
+                }
+                Debug.Write("\n");  // Nowa linia po każdej iteracji wiersza
+            }
+            Debug.Write("\n"); // Dodatkowy odstęp po planszy
+        }
+
+        private string GetPieceShortName(ChessPiece piece)
+        {
+            if (piece is Pawn) return piece.Color == Color.White ? "P" : "p";
+            if (piece is Rook) return piece.Color == Color.White ? "R" : "r";
+            if (piece is Knight) return piece.Color == Color.White ? "N" : "n";
+            if (piece is Bishop) return piece.Color == Color.White ? "B" : "b";
+            if (piece is Queen) return piece.Color == Color.White ? "Q" : "q";
+            if (piece is King) return piece.Color == Color.White ? "K" : "k";
+
+            return "?";  // Dla nieznanych przypadków
         }
         public void AddPiece(int x, int y, ChessPiece piece) 
         {
@@ -77,8 +127,9 @@ namespace Chess.Models
         {
             return board[x, y].Piece;
         }
-        public IEnumerable<Square> GetBoardState()
+        public ObservableCollection<Square> GetBoardState()
         {
+            var boardState = new ObservableCollection<Square>();
             for (int row = 0; row < 8; row++)
             {
                 for (int col = 0; col < 8; col++)
@@ -86,9 +137,11 @@ namespace Chess.Models
                     Square square = board[row, col];
                     square.Row = row;
                     square.Column = col;
-                    yield return square;
+                    boardState.Add(square);
                 }
             }
+            return boardState;
         }
+
     }
 }
